@@ -1,0 +1,14 @@
+
+### ✅ What I Did Today:
+- Watched intro videos on:
+  - What is Data Science?
+  - Difference between AI, ML, and DL
+- Wrote down my personal "Why"
+- Set up my environment:
+  - Installed Python, VS Code, and Jupyter
+  - Created this GitHub repo
+- Refreshed Python basics:
+  - Variables, data types, conditionals, loops
+- Created my first Jupyter Notebook:
+  - `why_ds_ai.ipynb`
+- Pushed my first commit!
