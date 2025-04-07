@@ -1,0 +1,32 @@
+# ✅ Day 3 – TO DO
+
+## 📘 Python Fundamentals
+- [ ] Review Loops: `for` & `while`
+  - [ ] Practice nested loops
+  - [ ] Use `break`, `continue`, and `pass` with examples
+- [ ] Define and use Functions:
+  - [ ] Write at least 3 functions (with and without return values)
+  - [ ] Use positional, default, and keyword arguments
+- [ ] Understand `*args` and `**kwargs`
+
+## 🧠 Logic Practice
+- [ ] Solve 3 logic puzzles using loops/functions
+  - [ ] Fibonacci series generator
+  - [ ] Prime number checker
+  - [ ] Count frequency of each word in a sentence (using dict)
+
+## 🧹 Mini Data Wrangling
+- [ ] Create a list of dictionaries (e.g. student data)
+- [ ] Sort it by a field (e.g. marks or age)
+- [ ] Filter entries using a condition (e.g. age > 15)
+
+## 🗒️ Journal & Reflection
+- [ ] Write a reflection: Which loop or concept was the hardest? Why?
+- [ ] Add a new favorite function or trick you learned today
+
+## 🚀 Optional Stretch Goals
+- [ ] Create a mini calculator using functions
+- [ ] Rewrite a Day 2 code using a function
+- [ ] Visualize a pattern with nested loops (like pyramid/star)
+
+---

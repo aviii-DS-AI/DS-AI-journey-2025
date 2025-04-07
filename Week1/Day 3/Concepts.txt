@@ -1,0 +1,117 @@
+-------------------------------------------------------------------------------------
+A lambda function is a small anonymous function.
+
+A lambda function can take any number of arguments, but can only have one expression.
+
+
+#Add 10 to argument a, and return the result:
+x = lambda a : a + 10
+print(x(5))
+
+
+#Multiply argument a with argument b and return the result:
+x = lambda a, b : a * b
+print(x(5, 6))
+---------------------------------------------------------------------------------------
+he character '\n' is used to create a new line. It is an escape sequence that indicates the end of a line of text and the start of a new one.
+
+##Example
+print("1. Add\n2. Subtract\n3. Multiply\n4. Divide") 
+#---> Output
+1. Add
+2. Subtract
+3. Multiply
+4. Divide
+
+----------------------------------------------------------------------------------------
+sorted_by_marks = sorted(students, key=lambda student: student["marks"])
+# lambda is a mini function written in one line — without a name.
+---> Equivalent to:
+
+def get_marks(student):
+    return student["marks"]
+## But lambda is shorter, often used just for that one sorting moment.
+-------------------------------------------------------------------------------------
+So I have difficulty with the concept of *args and **kwargs.
+
+So far I have learned that:
+
+*args = list of arguments - as positional arguments
+
+
+#Example....
+def my_sum(my_integers):
+    result = 0
+    for x in my_integers:
+        result += x       #This implementation works,but calling function also need to create a list args to pass to it.
+    return result
+
+list_of_integers = [1, 2, 3]
+print(my_sum(list_of_integers))
+
+
+##Using *args
+def my_sum(*args):
+    result = 0
+    # Iterating over the Python args tuple
+    for x in args:
+        result += x
+    return result
+
+print(my_sum(1, 2, 3))
+
+##In this example, you’re no longer passing a list to my_sum(). Instead, you’re passing three different positional arguments. my_sum() takes all the parameters that are provided in the input and packs them all into a single iterable object named args.
+
+------------------------------------------------------------------------------------------------------------------------------
+
+#**kwargs lets you pass any number of keyword arguments (like name="Ali") into a function.
+# Inside the function, kwargs behaves like a dictionary.
+
+Example WITHOUT **kwargs----->
+def describe_person(name, age):
+    print(name, "is ", age, " years old.")
+
+describe_person("Alice", 25)
+
+Works fine, but only if we pass exactly name and age.
+If we try adding more (like city="Paris"), it will raise an error.
+
+Example WITH **kwargs------------->
+def describe_person(**kwargs):
+    for key, value in kwargs.items():
+        print(f"{key.capitalize()}: {value}")
+
+describe_person(name="Alice", age=25, city="Paris", hobby="Reading")
+
+###Flexible — you don’t need to define every parameter ahead of time
+Useful when:
+-Building APIs
+-Creating dynamic forms
+-Writing generic utilities that take in various data
+
+
+-----------------------------------------------------------------------------------------
+#  Combine *args and **kwargs
+def mix_example(*args, **kwargs):
+    print("Args:", args)
+    print("Kwargs:", kwargs)
+
+mix_example(10, 20, name="Bob", age=30)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
