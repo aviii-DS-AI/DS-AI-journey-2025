@@ -1,0 +1,9 @@
+##Which data structure felt most natural to me, and why? What kind of problems could I solve with it?
+
+For me, The most Natural data structure is List, because it square bracket is straight forward appealing and its mutability.
+Its functions are also familiar. So i found it very familiar.
+
+We can solve the problem of batch file processing, rows data processing, API handling with it.
+
+
+
