@@ -1,0 +1,18 @@
+## ✅ Day 2 To-Do – Python Data Structures & Logic
+
+- [ ] Review and practice:
+  - Lists
+  - Tuples
+  - Sets
+  - Dictionaries
+
+- [ ] Logic-building exercises:
+  - Pattern printing (e.g. triangle of stars)
+  - Reverse string/list
+  - Swap variables without temp
+
+- [ ] Mini challenges:
+  - Count vowels in a string
+  - Find max/min in a list manually
+  - Merge two dictionaries
+  - Remove duplicates from a list

@@ -1,0 +1,69 @@
+🍆Difference between mutable vs immutable types
+
+Mutable objects 👉 can be changed after creation.(list, dict, set, bytearray)
+
+Immutable objects 👉 cannot be changed after creation.(int, float, str, tuple, bool, frozenset)
+
+ ⚠️ Why it matters?
+    Mutable types can change in functions (passed by reference)
+
+    Immutable types are safer for shared data (like in multi-threading)
+
+🧐Why Python uses dynamic typing...???
+   In dynamically typed languages like Python:
+      --You don’t declare variable types.
+      --The type is determined at runtime based on the assigned value.
+        x = 10       # x is an int
+        x = "hello"  # now x is a str
+
+      ⚠️ Trade-offs of Dynamic Typing
+    Pros                    	        Cons
+    Faster to write & test	        Harder to debug type-related bugs
+    More flexible code	                No type safety at compile-time
+    Great for data-driven work	        Large projects can get messy
+
+✨When to use what structure in real life/data projects
+ List------>
+   ✅ Use When:
+    You need to store items in order (like logs, sequences)
+    You might add/remove/update frequently
+    You want to iterate or sort items easily
+
+   🔍 Example Use Cases:
+    To-do lists
+    User inputs or uploaded files
+    Paginated API results
+
+ Tuple----->
+   ✅ Use When:
+    You want to store fixed groups of values
+    You need data integrity (no accidental changes)
+    You want to use it as a key in a dictionary
+
+   🔍 Example Use Cases:
+    (x, y) coordinates
+    Database row results
+    Function return values
+
+ Set – Unordered, Unique---->
+   ✅ Use When:
+    You need to remove duplicates
+    You want to test membership fast (in)
+    You want to do math-like operations (union, intersection)
+
+   🔍 Example Use Cases:
+    Unique email addresses
+    Tags or labels
+    Word frequency or stopwords filtering
+    
+ Dicts------->
+   ✅ Use When:
+    You need to map things (like name → age)
+    You want fast lookup by key
+    You deal with JSON or API data
+
+   🔍 Example Use Cases:
+    User profile data
+    Caching results
+    Configuration settings
+    Parsing API responses
