@@ -1,0 +1,39 @@
+# ✅ Day 4 - TO DO
+
+---
+
+## 🧠 Python Concepts & Practice
+- [ ] Practice nested `if-else` conditions and loops together
+- [ ] Understand and implement **List Comprehensions**
+- [ ] Explore `enumerate()` and `zip()` with examples
+- [ ] Build confidence with **functions** (parameters, return, scope)
+
+---
+
+## 🧩 Logic & Problem Solving
+- [ ] Solve 2 HackerRank problems (Easy level)
+- [ ] Practice 2 logic-based puzzles involving loops & conditionals
+- [ ] One debugging challenge: intentionally break then fix a small script
+
+---
+
+## 📊 Mini Project / Data Wrangling
+- [ ] Start small with basic CSV file handling using `pandas`
+- [ ] Read and print the first few rows of a sample dataset
+- [ ] Try filtering data using conditions (`df[df['col'] > x]`)
+
+---
+
+## 📔 Journal & Reflection
+- [ ] Write down 3 new concepts learned today
+- [ ] Reflect: Which topic was hardest and why?
+- [ ] 1–2 sentences on how today's learning felt overall
+
+---
+
+## 🌱 Optional Stretch Goals
+- [ ] Explore `lambda`, `map()`, `filter()` functions
+- [ ] Watch a 10-minute video on DataFrames from freeCodeCamp
+- [ ] Try a small coding challenge using recursion
+
+---

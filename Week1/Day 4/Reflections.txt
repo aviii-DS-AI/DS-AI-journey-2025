@@ -1,0 +1,15 @@
+I learned some functions today: map(), lambda( better )
+The concept of handling a csv with pandas was amazing, loved it.
+How easy it makes the handling. but I still don't have the grip over filter functions of it. I'll work on it.
+The Zip function was also familiar and quickly grasped.
+Developed more Logic........!🫠
+
+Although I did't find the 10 min Dataframe video from freecodecamp.🫤
+Nothing was the"Hardest for today but an overall "not so easy to get at first sight" type.
+
+Good day, Mood- 9/10; Productivity felt - 8/10
+
+
+
+TODAY NOT UPLOADING THE NOTES .TXT AS NOTHING REALLY THEORITICALLY GOT TODAY.
+BUT MUCH PRACTICAL AND LOGIC
