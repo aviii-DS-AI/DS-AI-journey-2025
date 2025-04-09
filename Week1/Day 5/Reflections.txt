@@ -1,0 +1,5 @@
+Numpy is way more efficient and fast especially with arrays.
+
+Today was a hard day, "I still did not get some concepts and are hard around exception handling, custom exception handling.", this i coould say untill i hoped into the mini CLI program project. 
+So at the end it feels so satisfying, and i realised that getting into projects conneccts the dots of knnowledge and makes things clear.
+
