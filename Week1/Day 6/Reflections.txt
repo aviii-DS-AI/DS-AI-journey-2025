@@ -1,0 +1,8 @@
+Data cleaning was easy, nothing frustrating and Sorting and filter felt most satisfying.
+
+I'm not a very good at explainations but,
+If I had to explain Dataframe to a 10yo , it would be like...
+Dataframe is like large digital frame of tray with grids, verticals called as coloumns and horizontals as Rows.
+And each rectangular grid stores data with respect to Rows and coloumn.
+
+We worked on Titanic Dataset, and we came to know about people details who sank or survived, like their age, gender, name and more...
