@@ -1,0 +1,14 @@
+#What surprised you about building a model?
+ Building a model would be this easy, but logical. Amazing! The output of results was so tabular and easy to analyze if you get it, that i did't properly yet.
+ I still dont have clarity on scikit-learn commands ( need more pratice and to watch descriptive videos) ( will do on this weekend )
+
+# What part of preprocessing felt confusing or fun?
+  Cleaning the data was a bit confusion , for pandas actually.
+  The fun part is to efficiently modify a  large dataset
+
+# What accuracy did your model reach? (Be honest, it’s okay if it’s not high!)
+  So it was 80% around... and it was a simple model so....
+  Actually, I took assistance of internet. I just didnt want to stop lagging my productivity. Learned less but didnt want to ruin my discipline at all.
+
+Mood = 9/10 ( New Monsoon Showers )
+Productivity = 7/10 ( as i think that i dont remember all the codes now )
