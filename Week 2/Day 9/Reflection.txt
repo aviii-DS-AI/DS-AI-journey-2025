@@ -1,0 +1,10 @@
+Decision Tree is generally more intuitive as It gives you human-readable rules, It mirrors how humans often reason through decisions (if/else logic).
+But Logistic Regression is mathematically elegant and interpretable (via coefficients).
+
+Yes —my tree likely overfit a bit.
+
+
+the most important features were Sex, Class, Fare and age
+
+Mood=(7/10)
+Productivity= (8/10)
