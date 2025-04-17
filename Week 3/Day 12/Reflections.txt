@@ -1,0 +1,34 @@
+What’s your understanding of ensemble models now?
+-- Ensemble models are those ehich work upon multiple small models to give better results.Random Forest Classifier is one of those(Bagging)
+
+Did Random Forest improve accuracy?
+-- Yes, Absolutely. I loved the concept of RF. It increased the accuracy by 4-5 %
+
+Which model feels most “stable” and reliable to you?
+-- RF for real......🫠
+
+How does it actually find the importance, is it mentioned with the data set, or it trains it to find the importance with test data? 
+--Which features (columns) helped the model make better decisions the most — during training, not on test data.
+  Each Decision Tree in the Random Forest splits the data multiple times — each split is based on a feature (like age, sex, etc.) to separate the classes (like      survived vs not survived).
+  Here's the logic behind importance:
+
+  1. Every split reduces impurity (i.e., confusion).
+  For classification, it uses Gini impurity or Entropy.
+  If a feature splits the data cleanly (e.g., splits survivors from non-survivors well), it reduces impurity more.
+
+  2. It adds up how much each feature helped.
+  For every tree, it tracks:
+  Which features were used for splits
+  How much those splits reduced impurity
+  Then it averages the importance of each feature across all trees in the forest.
+
+  3. Result:
+  Feature importance =
+  Sum of impurity decrease from using that feature, averaged across all trees.
+
+{[( ! It's model-specific: Random Forests do this natively. Logistic Regression, for example, doesn’t have .feature_importances_, but you can interpret its coefficients differently.! }])
+
+
+Productivity = 9/10
+Difficulty= Medium
+Mood = 5/10 (personal reasons)
