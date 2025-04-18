@@ -1,0 +1,19 @@
+ What’s your mental image of how SVM separates data?
+-- It creates margin for decision making, a line which decides and it seperates the data on the basis of the trained data and line. It sort of looks like     c  classifying with hands , Like blue and red berries apart on the data of taste and colour.
+
+Why are margins important in classification?
+-- Wider margin = more space between the classes and the decision boundary
+-- Narrow margin = boundary is squeezed between classes
+Better Generalization on New Data
+A larger margin means the model is more confident in its predictions.
+It's less likely to be influenced by small noise or fluctuations in new data.
+
+ Which kernel worked best on Titanic? Why do you think so?
+--Most likely: RBF kernel performed better. As..
+-- The Titanic dataset is NOT linearly separable
+-- RBF can curve and adapt for overlapping data
+
+
+Mood = 8/10
+Productivity = 8/10
+Difficulty = A bit Hard
