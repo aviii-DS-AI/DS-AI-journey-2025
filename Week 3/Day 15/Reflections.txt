@@ -1,0 +1,21 @@
+
+- What part of Naive Bayes clicked with you?
+the part that clicked was the simplicity and effectiveness of Naive Bayes, especially in text classification.
+Its also veri intuitive as it just makes a matrix of mords as independent features features ans predict.
+
+
+- Does the “independence assumption” always work?
+No, the independence assumption doesn’t always hold in reality, but it works surprisingly well in many cases. 
+Words like “free” and “money” in a spam message are related, but the model treats them as if they’re unrelated.
+
+
+- Would you trust Naive Bayes in real-world text problems?
+Yes, I would trust Naive Bayes for many real-world text classification tasks, especially when
+The problem is well-suited for independent features, like spam detection, sentiment analysis, or topic classification
+
+However, for more complex text problems where there are strong relationships between features, I’d consider using more advanced models that we'll learn in future.
+
+
+Mood - 9/10
+Productivity - 8/10
+Difficulty - Medium 
