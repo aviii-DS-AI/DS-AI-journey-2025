@@ -1,0 +1,20 @@
+- What felt unique about KNN vs SVM or RF?
+  KNN is:
+  Lazy — it doesn’t learn during training; it just stores data.
+  Simple & intuitive — it works like: “ask the neighbors and vote.”
+  SVM (Support Vector Machine):
+  Tries to find the best boundary (hyperplane) between classes.
+  It actually learns something complex during training.
+  RF (Random Forest):
+  A collection of decision trees that vote on the final prediction
+  It learns patterns, splits data using logic rules
+  KNN is kinda...It's one of the few algorithms that you could "explain on a napkin"
+
+- Which part of it do I now remember confidently?
+  The importance of distance and scaling in KNN.
+  How KNN makes predictions by looking at nearby points only.
+
+- Could I explain KNN to my younger sibling?
+  Okay, So listen You overgrown kid, KNN is sort of lazy algorithm( Not more than you ). It looks for its closest K no of Neighbour data points to make prediction.
+  It doesnt train until said to predict. 
+  Imagine You go to school, You want the best pen as you can't find a good one. You'll look for your near benches for reccomendations and ask them. Next day you     come up with that particular brand of pen.
