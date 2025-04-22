@@ -1,0 +1,15 @@
+What was your “aha” moment with clustering?
+--- Unsupervised learning is like walking into a party where you don’t know anyone, but after five minutes you can still point to the friend‑groups.
+
+How it feels to work without labels? 
+-- Its like exploring a jungle with no map; thrilling, a bit nerve‑wracking, and highly creative. Evaluation is fuzzier
+
+What K‑Means does well?
+-- Scales to massive datasets. 
+  Excellent when groups are ball‑shaped and similar in density 
+Where K‑Means can stumble?
+--- Non‑convex shapes, Different densities / sizes
+
+Mood - 6/10
+Productivity - 7/10
+Difficulty - 8/10
