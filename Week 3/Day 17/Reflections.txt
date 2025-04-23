@@ -1,0 +1,19 @@
+- What did PCA help you *see* that wasn’t visible before?
+We had 4D data (Iris) — not something we can visualize directly.
+We saw that just 2 components reveal clear clusters.
+ PCA gave eyes to a 4D problem — it showed natural patterns and separations.
+
+- How would you explain PCA to a friend using images?
+ cloud of 3D points → project it onto different 2D planes → PCA finds the best plane that maximizes spread (variance).
+
+
+- How do you feel about throwing away data dimensions?
+little scary at first! 
+We're not throwing away randomly, we’re prioritizing what matters.
+It’s like cleaning a messy room: removing clutter actually makes the important stuff stand out.
+
+So it’s less about “losing data” and more about distilling meaning.
+
+Mood - 8/10
+Productivity - 7/10
+Difficulty - Bit Complex I'd say, not grasped properly( Will include in Week 3 Revision Session )
