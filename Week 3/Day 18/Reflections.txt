@@ -1,0 +1,24 @@
+- What did tuning improve the most?
+Tuning reduced overfitting and helped models generalize better across unseen data.
+
+- How much better was GridSearch compared to default?
+very much 
+ The confusion matrix and classification report showed fewer misclassifications, better precision & recall across all classes, not just majority ones.
+
+- Where did GridSearch take *too long*?
+GridSearch gets slow when:
+You have a large dataset
+You try many hyperparameters
+Or you use expensive models 
+
+- How would you explain GridSearchCV to your younger sibling?
+Imagine you're baking cookies and trying different recipes:
+Some use more sugar,
+Some bake longer,
+Some have extra chocolate chips
+You try all the combos and ask 5 friends to taste each one (that's cross-validation!).
+Then you pick the recipe that made everyone happiest 
+
+Mood - 9/10
+Productivity - 7/10
+Difficulty - Mid
